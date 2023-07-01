@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CapPro2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        .gradient-background-1 {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 200% 200%;
+  animation: gradient-animation 18s ease infinite;
+}
+        .gradient-background-2 {
+  background: linear-gradient(300deg, #5febca, #f1780e, #1c66ce);
+  background-size: 200% 200%;
+  animation: gradient-animation 18s ease infinite;
+}
+        .gradient-background-3 {
+  background: linear-gradient(300deg, #ad0a84, #f53333, #d8f533);
+  background-size: 200% 200%;
+  animation: gradient-animation 18s ease infinite;
+}
+        .gradient-background-4 {
+  background: linear-gradient(300deg, #fc0404, #5c36e8, #c7e51f);
+  background-size: 200% 200%;
+  animation: gradient-animation 18s ease infinite;
+}
+        .gradient-background-5 {
+  background: linear-gradient(300deg, #ee61e7, #12f879, #6298f6);
+  background-size: 200% 200%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+        .grid-container{
+            display: grid;
+            grid-template-columns: 0.33fr 0.66fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 5px;
+        }
+        img{
+            grid-column: span 1;
+        }
+        .container-1{
+            text-align: center;
+        
+        }
+        .container-2{
+            text-align: center;
+        }
+        .container-3{
+            text-align: center;
+        }
+        h1{
+            font-size: 4rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+        h2{
+            font-size: 2rem;
+            font-family: cursive;
+        }
+        h3{
+            font-size: 3rem;
+        }
+        footer{
+          background-color: #1c66ce;
+        }
+      </style>
+</head>
+<body>
+    <div class="gradient-background-1">
+        <div class="container-1"><img src="./image/cloudpic.png.png" alt="cloudpic" width="400px" height="300px"></div>
+        <div class="container-1"><h1>I Am Arpit</h1></div>
+        <div class="container-1"><h2>A Web Developer</h2></div>
+    </div>
+    <hr style="border-top: 3px dotted rgb(3, 3, 115);">
+    <div class="gradient-background-2">
+        <div class="container-2"><img src="./image/Mountainpic.png" alt="Mountainpic" width="400px" height="300px"></div>
+        <div class="container-2"><h2>Hello Everyone...</h2></div>
+        <div class="container-2"><h2>I am an beginner web developer. Currently studying at NIT Manipur in Computer Science & Enginnering.</h2></div>
+    </div>
+    <hr style="border-top: 3px dotted rgb(3, 3, 115);">
+    <div class="gradient-background-3">
+        <div class="container-3"><h3>My Skills</h3></div>
+        <div class="container-3">
+            
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+                <div class="col d-flex align-items-start">
+                  <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="./image/cat-typing.gif" alt="cat-typing" width="130" height="100">
+                  </div>
+                  <div>
+                    <h2 class="fs-2 text-body-emphasis">Design & Development</h2>
+                    <p>I started learning to code when I was 17 years old and I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
+                    
+                  </div>
+                </div>
+                
+                <div class="col d-flex align-items-start">
+                  <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="./image/momospic.png" alt="momospic" width="130" height="100">
+                  </div>
+                  <div>
+                    <h3 class="fs-2 text-body-emphasis">Momos Challenge</h3>
+                    <p>My best skill is eating momos. I am tha undisputed king of momos eating challenge.If you don't know about momos , then you are so bored person. Try this .</p>
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <hr style="border-top: 3px dotted rgb(3, 3, 115);">
+    <div class="gradient-background-4">
+      <div class="px-4 pb-5 mb-5 text-center">
+        <h1 class="display-5 fw-bold text-body-emphasis">Get In Touch</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">If you love momos as much as I do</p>
+          <h3 class="lead mb-4">Love momos as much as I do? Let's talk about how awesome they are! We can code while we eat momos!</h3>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" onclick="window.location.href='./contact.html'" class="btn btn-primary btn-lg px-4 gap-3" >Contact Me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr style="border-top: 3px dotted rgb(3, 3, 115);">
+
+    <footer class="py-3 my-4" >
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© Arpit @ The Rock</p>
+    </footer>
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
